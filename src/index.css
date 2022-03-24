@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.app {
+    background-color: white;
+}
+
+.header {
+    background-color: #F55A5A;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+.header > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+
+.header > img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px;
+}
+
+.post > img {
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: 20px;;
+}
+
+.post--location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post--location > img {
+    width: 12px;
+    height: 18px;
+    padding-right: 5px;
+}
+
+.post--country {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+}
+
+.post--url {
+    margin: 0px 15px;
+    align-self: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.post--date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 12px;
+}
+
+.post--descr {
+    max-width: 800px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.hline {
+    border: 1px solid #F5F5F5;
+    padding-left: 20px;
+}
